@@ -1,0 +1,88 @@
+Honeymoon Map Itinerary
+========================
+
+A 3D interactive map of the Arash & Laila Japan honeymoon trip
+(April 17 – 30, 2026). Click any city to see the day-by-day plan.
+
+----------------------------------------------------------------
+HOW TO OPEN THE APP
+----------------------------------------------------------------
+
+1. Double-click "Open Honeymoon Map.command"
+
+2. The first time you open it, macOS may say:
+       "Open Honeymoon Map.command can't be opened
+        because it is from an unidentified developer."
+
+   To fix this, do ONE of the following (only needed once):
+
+   a) Right-click (or Control-click) on "Open Honeymoon Map.command"
+      and choose "Open" from the menu. A dialog will appear — click
+      "Open" again to confirm.
+
+      OR
+
+   b) Open System Settings → Privacy & Security, scroll down, find
+      the "Open Anyway" button next to the script name, and click it.
+
+3. A Terminal window will open and your default web browser will
+   launch the app at http://localhost:4173/
+
+4. To stop the app: close the Terminal window (or press Control + C
+   while it is focused).
+
+----------------------------------------------------------------
+HOW TO USE THE APP
+----------------------------------------------------------------
+
+WELCOME SCREEN
+   Click "START HONEYMOON" (or press Enter or Space) to enter.
+
+THE 3D MAP
+   - One finger drag (mouse: left-click + drag)
+        → Pan around the map
+   - Mouse wheel / two-finger pinch
+        → Zoom in and out
+   - Mouse: left-click + drag rotates the camera
+     Touch: two-finger twist rotates the camera around the
+     midpoint between your fingers (like Google Earth)
+   - Right-click + drag pans on desktop
+
+OPENING A CITY ITINERARY
+   - Tap any glowing pillar on the map
+        OR
+   - Tap a city button at the bottom of the screen
+        (Tokyo, Kyoto, Osaka, Hakone, Tokyo Ginza)
+
+INSIDE AN ITINERARY
+   - The title and close (X) stay pinned at the top while you
+     scroll through the day-by-day plan.
+   - Click any event name to open it in Google Maps in a new tab.
+   - Use the arrow buttons (← →) to move between cities, or just
+     tap another city in the bottom dock.
+   - Press Esc, click the X, or tap outside the menu to close.
+
+AUDIO
+   - Top-right "CODEC" button toggles ambient sound.
+   - All music is synthesized live in your browser — no audio
+     files are downloaded.
+
+----------------------------------------------------------------
+REQUIREMENTS
+----------------------------------------------------------------
+
+- macOS 10.15 or later
+- A modern browser: Safari, Chrome, Firefox, or Edge
+- Python 3 (comes with the Xcode Command Line Tools)
+  If the launcher tells you Python is missing, open Terminal and run:
+      xcode-select --install
+  Then try again.
+
+----------------------------------------------------------------
+WHAT'S IN THIS FOLDER
+----------------------------------------------------------------
+
+   Open Honeymoon Map.command   - double-click to launch
+   index.html                   - the app's main page
+   assets/                      - all the code, fonts, and synth audio
+   HOW_TO_USE.txt               - this file
